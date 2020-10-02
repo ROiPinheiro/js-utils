@@ -5,7 +5,6 @@ describe("removeNonDigitFromString tests", () => {
     const stringTest = "2000";
     const response = toBRL(stringTest);
 
-    console.log(response);
     expect(response).toBe("R$ 2.000,00");
   });
 });
